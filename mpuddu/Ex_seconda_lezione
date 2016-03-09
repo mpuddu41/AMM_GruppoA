@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Codici a Barre</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mauro P">
+        <meta name="keywords" content="codici, barcode, scanner, lettura ottica, codici a barre, 1D, 2D, C39, Matrix, QRcode">
+    </head>
+    <body>
+        <div>Hello World</div>
+        
+        <ol>
+            <li><a href="#c39">Codici C39</a></li>
+            <li><a href="#matriciali">Codici Matriciali<a></li>
+            <li><a href="#lettori">Lettori Codici a Barre<a></li>
+            <li><a href="#scanner">Scanner a Lettura Ottica<a></li>
+        </ol>
+        
+        <h1>Vendita di Codici a Barre</h1>
+        
+        <p>Benvenuto, carissimo visitatore! Tutti i codici a barre presenti sul nostro sito sono di alta qualità. Ogni codice a barre viene singolarmente testato prima di essere venduto. Troverete un ampia gamma di prodotti che soddisferanno tutte le vostre esigenze. Abbiamo anche una sezione dedicata alla vendita di Lettori di Codici a Barre che permettono la lettura sia del classico Barcode tradizionale che dei più moderni codici matriciali.</p>
+        
+        <h2 id="c39">Codici C39</h2>
+        <p>Code 39 (o Code 3 of 9) è un codice a barre che permette di rappresentare 43 caratteri, ovvero le lettere maiuscole (26 lettere da A a Z), i caratteri numerici (da 0 a 9) e alcuni caratteri speciali (-, ., $, /, +, %, e lo spazio) e un carattere speciale ( '*' ) usato come delimitatore di inizio e fine. Ogni carattere è costituito da 9 elementi: 5 barre e 4 spazi. Il nome trae origine dal fatto che ciascun carattere è composto da 9 barre verticali di cui 3 sono larghe (simbolo binario 1) mentre le restanti 6 sono strette (simbolo binario 0).</p>
+    
+        <h2 id="matriciali">Codici Matriciali</h2>
+        <p>Un codice QR (in inglese QR Code, abbreviazione di Quick Response Code)[1] è un codice a barre bidimensionale (o codice 2D)[2], ossia a matrice, composto da moduli neri disposti all'interno di uno schema di forma quadrata. Viene impiegato per memorizzare informazioni generalmente destinate a essere lette tramite un telefono cellulare o uno smartphone. In un solo crittogramma sono contenuti 7.089 caratteri numerici o 4.296 alfanumerici. Genericamente il formato matriciale è di 29x29 quadratini. Il nome "QR" è l'abbreviazione dell'inglese "Quick Response" ("risposta rapida"), in virtù del fatto che il codice fu sviluppato per permettere una rapida decodifica del suo contenuto[3].</p>
+        
+        <h2 id="lettori">Lettori Codici a Barre<h2>
+        <p>Il lettore di codice a barre è uno strumento atto a leggere un codice a barre. Sono molto utilizzati negli esercizi commerciali: ogni cassa è dotata di un lettore fisso che, fatto scivolare sul codice a barre stampato direttamente sul prodotto o sulla sua confezione, determina la descrizione e il prezzo del prodotto stesso in base allo spessore delle barre e allo spazio tra di loro. Sono disponibili altri dispositivi simili, come le penne ottiche, che sono utili in casi in cui sia necessaria una maggiore mobilità. La tecnologia prevalente in quanto più affidabile ed economica impiega uno o più raggi laser (nei lettori fissi abbinato ad una o più testine oscillanti e in taluni casi ad un sistema di specchi) al fine di moltiplicare le angolazioni di lettura del codice stampato su un oggetto. Esistono anche dei lettori più economici (di solito quelli portatili) che utilizzano una barra di LED per illuminare i codici a barre e un sensore CCD (Charged Coupled Device). Si ottengono così dispositivi più leggeri e più resistenti che però devono essere portati quasi a contatto con i codici a barre da leggere, a breve distanza e perpendicolarmente o quasi. Inoltre le ultime tecnologie permettono la lettura del codice a barre tramite l'acquisizione di un'immagine fornita da un sistema video. Questo, tramite l'apposito software, permette di "fotografare" l'oggetto, riconoscere nella fotografia il codice a barre da leggere e successivamente interpretarlo. Questa tecnologia è molto diffusa nella maggior parte dei moderni smartphone per leggere codici a barre 2D indicanti link di siti web ed anche per sistemi di pagamento (spesso utilizzati nei karaoke).</p>
+        
+        <h2 id="scanner">Scanner a Lettura Ottica</h2>
+        <p>Lo scanner, in italiano lettore ottico[1][2] di immagini, è una periferica in grado di acquisire in modalità ottica una superficie analogica (fogli stampati, pagine, fotografie, diapositive), di interpretarla come un insieme di pixel, e quindi di ricostruirne la copia fotografica sotto forma di immagine digitale. Il processo e il prodotto dell'acquisizione sono detti scansione,[3][4][5][6] e il verbo scandire,[7][8][9][10] che descrive per l'appunto l'azione di rilevare e trasmettere i dettagli dell'immagine scandita. Sia il verbo inglese to scan, dal quale deriva il termine scanner, sia il verbo italiano scandire, hanno la medesima origine nel verbo latino scandere.[7][11][12] Sono inoltre diffusi alcuni forestierismi storpiati dal linguaggio tecnico di origine inglese, come scannerizzare o scansionare, meno linguisticamente opportuni.</p>
+    </body>
+</html>
