@@ -6,11 +6,27 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Mauro P">
+            <meta name="keywords" content="scanner, lettura ottica, scansione, acquisizione">
     </head>
     <body>
-        <div>TODO write content</div>
+        <form method="GET">
+            <!-- Richiesta Username e Password -->
+            
+                <label for="Username">Username</label>
+                <input type="text" name ="Username" id="Username"
+                       id="corto" value="username"/>
+
+                <label for="Password">Password Utente</label>
+                <input type="Password" name ="Password" id="Password"
+                       id="pswd" value="oscurato"/>    
+                
+                <!-- Pulsanti submit e reset -->
+                <input type="submit" value="Invia">
+                <input type="reset" value="Cancella">
+                
     </body>
 </html>
