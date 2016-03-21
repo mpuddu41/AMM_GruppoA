@@ -22,20 +22,29 @@ and open the template in the editor.
         <h2>Inserisci un Nuovo Oggetto</h2>
         
         <form method="get">
+            <!-- Campo per inserire Nome Oggetto -->
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" value="Nome Oggetto" />
             
+            <!-- Campo per inserire Url immagine -->
             <label for="url">Url Immagine</label>
             <input type="text" name="url" id="url" value="URL immagine oggetto" />
             
+            <!-- Campo per inserire Descrizione Oggetto -->
             <label for="descrizione">Descrizione</label>
             <textarea rows="4" cols="20" name="descrizione" id="descrizione">Descrizione dell’oggetto</textarea>
             
+            <!-- Campo per inserire Prezzo Oggetto -->
             <label for="prezzo">Prezzo dell'oggetto</label>
             <input type="text" name="prezzo" id="prezzo" value="Prezzo" />
             
+            <!-- Campo per inserire Numero degli oggetti -->
             <label for="numero">Numero oggetti</label>
             <input type="text" name="numero" id="numero" value="Quantit&agrave; di oggetti disponibili" />
+                            
+            <!-- Pulsanti per inviare o cancellare i dati -->
+            <input type="submit" value="Invia">
+            <input type="reset" value="Cancella">
         </form>
         
     </body>
