@@ -6,11 +6,37 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Riservata - Venditore</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Mauro P">
+            <meta name="keywords" content="scanner, lettura ottica, scansione, acquisizione">
     </head>
     <body>
-        <div>TODO write content</div>
+        <!-- Predispongo la nav per il collegamento con la pagina Login e Descrizione -->
+        <nav>
+            <a href="login.html"><h3>Login</h3></a>
+            <a href="descrizione.html"><h3>HomePage</h3></a>
+        </nav>
+        
+        <h2>Inserisci un Nuovo Oggetto</h2>
+        
+        <form method="get">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" value="Nome Oggetto" />
+            
+            <label for="url">Url Immagine</label>
+            <input type="text" name="url" id="url" value="URL immagine oggetto" />
+            
+            <label for="descrizione">Descrizione</label>
+            <textarea rows="4" cols="20” name="descrizione" id="descrizione">Descrizione dell’oggetto</textarea>
+            
+            <label for="prezzo">Prezzo dell'oggetto</label>
+            <input type="text" name="prezzo" id="prezzo" value="Prezzo" />
+            
+            <label for="numero">Numero oggetti</label>
+            <input type="text" name="numero" id="numero" value="Quantit&agrave; di oggetti disponibili" />
+        </form>
+        
     </body>
 </html>
