@@ -15,8 +15,8 @@ and open the template in the editor.
     <body>
         <!-- Predispongo la nav per il collegamento con la pagina Login e Descrizione -->
         <nav>
-            <a href="login.html"><h3>Login</h3></a>
-            <a href="descrizione.html"><h3>HomePage</h3></a>
+            <a href="login.html">Login</a>
+            <a href="descrizione.html">HomePage</a>
         </nav>
         
         <h2>Inserisci un Nuovo Oggetto</h2>
@@ -28,7 +28,7 @@ and open the template in the editor.
             
             <!-- Campo per inserire Url immagine -->
             <label for="url">Url Immagine</label>
-            <input type="text" name="url" id="url" value="URL immagine oggetto" />
+            <input type="url" name="url" id="url" />
             
             <!-- Campo per inserire Descrizione Oggetto -->
             <label for="descrizione">Descrizione</label>
@@ -36,11 +36,11 @@ and open the template in the editor.
             
             <!-- Campo per inserire Prezzo Oggetto -->
             <label for="prezzo">Prezzo dell'oggetto</label>
-            <input type="text" name="prezzo" id="prezzo" value="Prezzo" />
+            <input type="number" name="prezzo" id="prezzo"/>
             
             <!-- Campo per inserire Numero degli oggetti -->
             <label for="numero">Numero oggetti</label>
-            <input type="text" name="numero" id="numero" value="Quantit&agrave; di oggetti disponibili" />
+            <input type="number" name="numero" id="numero"/>
                             
             <!-- Pulsanti per inviare o cancellare i dati -->
             <input type="submit" value="Invia">
