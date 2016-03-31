@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Mauro P">
+            <meta name="keywords" content="scanner, lettura ottica, scansione, acquisizione">
+            <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </head>
+    
+    <body>
+        <!-- Predispongo la navbar per il collegamento con le altre pagine -->
+         <nav>
+            <a href="descrizione.html">Descrizione</a>
+            <a href="cliente.html">Cliente</a>
+            <a href="venditore.html">Venditore</a>
+        </nav>
+        
+        <form method="GET">
+            <!-- Richiesta Username e Password -->
+            <label for="Username">Username</label>
+            <input type="text" name ="Username" id="Username" value="Username"/>
+
+            <label for="Password">Password Utente</label>
+            <input type="Password" name ="Password" id="Password" value="nascosta"/>    
+            
+            <div id="pulsanti">
+                <!-- Pulsanti submit e reset -->
+                <input type="submit" value="Invia">
+                <input type="reset" value="Cancella">
+            </div>
+        </form>
+        
+    </body>
+</html>
