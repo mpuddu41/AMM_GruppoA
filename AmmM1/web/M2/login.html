@@ -15,56 +15,42 @@ and open the template in the editor.
     </head>
     
     <body>
-        
-       
-        
-        
-        
-        <div class="divdx">
+        <div id="page">
             
-        </div>
-        
-        <!-- Predispongo la navbar per il collegamento con le altre pagine -->
-         <nav>
-            <a href="descrizione.html">Descrizione</a>
-            <a href="cliente.html">Cliente</a>
-            <a href="venditore.html">Venditore</a>
-        </nav>
-        
-        
-        <div class="divsx">
-            
-            <form class="login_form" method="GET">
-                <!-- Richiesta Username e Password -->
-                <label for="Username">Username</label>
-                <input type="text" name ="Username" id="Username" value="Username"/>
+            <div id="header">
+                <!-- Predispongo la navbar per il collegamento con le altre pagine -->
+                 <nav>
+                    <a href="descrizione.html">Descrizione</a>
+                    <a href="cliente.html">Cliente</a>
+                    <a href="venditore.html">Venditore</a>
+                </nav>
+            </div>
 
-                <label for="Password">Password Utente</label>
-                <input type="Password" name ="Password" id="Password" value="nascosta"/>    
 
-                <div> <!--id="pulsanti"-->
+            <div class="divsx">
+
+
+            </div>
+
+            <div class="divcenter">
+                
+                <h2>
+                    Benvenuto nella pagina di Login.<br> Per effettuare l'accesso inserisci le credenziali richieste.
+                </h2>
+                
+                <form class="login_form" method="GET">
+                    <!-- Richiesta Username e Password -->
+                    <label for="Username">Username</label>
+                    <input type="text" name ="Username" id="Username" value="Username"/>
+
+                    <label for="Password">Password Utente</label>
+                    <input type="Password" name ="Password" id="Password" value="nascosta"/>    
+
                     <!-- Pulsanti submit e reset -->
                     <input type="submit" value="Invia">
                     <input type="reset" value="Cancella">
-                </div>
-            </form>
+                </form>
+            </div>
+        </body>
         </div>
-        <div class="divcenter">
-            <form class="login_form" method="GET">
-                <!-- Richiesta Username e Password -->
-                <label for="Username">Username</label>
-                <input type="text" name ="Username" id="Username" value="Username"/>
-
-                <label for="Password">Password Utente</label>
-                <input type="Password" name ="Password" id="Password" value="nascosta"/>    
-
-                <div> <!--id="pulsanti"-->
-                    <!-- Pulsanti submit e reset -->
-                    <input type="submit" value="Invia">
-                    <input type="reset" value="Cancella">
-                </div>
-            </form>
-        </div>
-        
-    </body>
 </html>
