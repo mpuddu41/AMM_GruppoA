@@ -1,0 +1,768 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-mar-2016, 18.47.57
+    Author     : studente
+*/
+
+
+@media only screen and (min-width: 1024px)
+{
+    
+body
+{
+    background-image: url("img/sfondo.jpg");
+    opacity: 0.96;
+    font-family: Times, Arial, sans-serif;
+    color: black;
+}
+
+.nofoto
+	{
+	visibility: hidden;
+ 	}
+        
+#aaa
+{
+    visibility: hidden;
+}
+    
+h1
+{
+    font-weight: bold;
+    color: #bd0010;
+    margin-left: 45%;
+    margin-top: 20px;
+    
+}
+
+h2
+{
+    font-style: normal;
+    color: #3b45b5;
+    text-align: center;
+}
+
+h3
+{
+    font-style: oblique;
+    color: #10750f;
+    text-align: center;
+}
+
+a:link{
+    color: blue;
+    font-size: 20px;
+}
+
+a:visited{
+    font-weight: bolder;
+}
+
+a:hover{
+    color: red;
+    font-style: normal;  
+}
+
+a:active{
+    font-weight: bold;
+}
+
+#header
+{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    background-color: lightgray;
+    border-width: 2px;
+    height: 10%;
+    margin-bottom: -2px;
+}
+
+nav
+{
+    margin-top: 20px;
+    
+}
+
+nav a:link
+{
+    font-size: 23px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-width: 2px;
+}
+
+nav a:hover
+{
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.divsx
+{
+    margin-left: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    float: left;
+    border-width: 2px;
+    width: 20%;
+    background-color: lightgray;
+    height: 80%;
+}
+
+.divcenter
+{
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 120%;
+    background-color: #e2f2ec;
+    margin-right: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    margin-left: 25%;
+    border-width: 2px;
+    height: 80%;
+}
+
+.login_form
+{
+    text-align: center;
+    display: block; 
+    font-size: 18px;
+}
+
+.campoform
+{
+    display: block;
+    width: 35%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 32%;
+}
+
+.campoform:focus
+{
+    background-color: #eaeaea;
+}
+
+#page
+{
+    height: 1500px;
+}
+
+.scorre
+{
+    position: fixed;
+    text-align: center;
+    width: 62%;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+table a:link
+{
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+tr img:hover
+{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+}
+
+.intestazione
+{
+    background-color: white;
+    font-style: italic;
+    font-size: 21px;
+    
+}
+
+.pari
+{
+    background-color: rosybrown;
+}
+
+.dispari
+{
+    background-color: aliceblue;
+}
+
+.elenco
+{
+    position: fixed;
+}
+
+.pulsanti
+{
+    border-style: solid;
+    border-color: lightgrey;
+    width: 11%;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.pulsanti:hover
+{
+    border-color: orange;
+}
+
+.pulsanti:active
+{
+    background-color: orange;
+    color: white;
+}
+
+#footer
+{
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightgray;
+    width: 88.16%;
+    height: 5%;
+    margin-top: -2px;
+    margin-left: 5%;
+    padding-left: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.rtesto
+{
+    border-style: dashed;
+    border-color:orange;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 9%;
+}
+
+.icona
+{
+     width: 200px;
+     height: 40px;
+     margin-left: 42%;
+     margin-top: 10%;
+}
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px)
+{
+body
+{
+    background-image: url("img/sfondo.jpg");
+    opacity: 0.96;
+    font-family: Times, Arial, sans-serif;
+    color: black;
+}
+    
+h1
+{
+    font-weight: bold;
+    color: #bd0010;
+    margin-left: 10%;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+h2
+{
+    font-style: normal;
+    color: #3b45b5;
+    text-align: center;
+}
+
+h3
+{
+    font-style: oblique;
+    color: #10750f;
+    text-align: center;
+}
+
+a:link
+{
+    color: blue;
+    font-size: 20px;
+}
+
+.divsx a:link
+{
+    visibility: hidden;
+}
+
+.divsx ul
+{
+    visibility: hidden;
+}
+
+.divsx h2
+{
+    visibility: hidden;
+}
+
+a:visited{
+    font-weight: bolder;
+}
+
+a:hover{
+    color: red;
+    font-style: normal;  
+}
+
+a:active{
+    font-weight: bold;
+}
+
+#header
+{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    background-color: lightgray;
+    border-width: 2px;
+    height: 10%;
+    margin-bottom: -2px;
+}
+
+nav
+{
+    margin-top: 20px;
+}
+
+nav a:link
+{
+    font-size: 16px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-width: 2px;
+}
+
+nav a:hover
+{
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.divsx
+{
+    display: none;
+    margin-left: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    float: left;
+    border-width: 2px;
+    width: 20%;
+    background-color: lightgray;
+    height: 80%;
+}
+
+.divcenter
+{
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 120%;
+    background-color: #e2f2ec;
+    margin-right: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    margin-left: 5%;
+    border-width: 2px;
+    height: 80%;
+}
+
+.login_form
+{
+    text-align: center;
+    display: block; 
+    font-size: 18px;
+}
+
+.campoform
+{
+    display: block;
+    width: 60%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.campoform:focus
+{
+    background-color: #eaeaea;
+}
+
+#page
+{
+    height: 100%;
+}
+
+table a:link
+{
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.intestazione
+{
+    background-color: white;
+    font-style: italic;
+    font-size: 21px;
+}
+
+.pari
+{
+    background-color: rosybrown;
+}
+
+.dispari
+{
+    background-color: aliceblue;
+}
+
+.pulsanti
+{
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pulsanti:hover
+{
+    border-color: orange;
+}
+
+.pulsanti:active
+{
+    background-color: orange;
+    color: white;
+}
+
+#footer
+{
+    visibility: hidden;
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightgray;
+    width: 88.16%;
+    height: 5%;
+    margin-top: -2px;
+    margin-left: 5%;
+    padding-left: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.rtesto
+{
+    border-style: dashed;
+    border-color:orange;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 9%;
+}
+
+.icona
+{
+     width: 200px;
+     height: 40px;
+     margin-left: 29%;
+     margin-top: 10%;
+}
+
+.scorre
+{
+    visibility: hidden;
+}
+.nofoto
+{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -650px;
+    margin-bottom: 70px;
+}
+
+.nofoto a:link
+{
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 480px)
+{
+    
+body
+{
+    background-image: url("img/sfondo.jpg");
+    opacity: 0.96;
+    font-family: Times, Arial, sans-serif;
+    color: black;
+}
+ 
+h1
+{
+    color: #bd0010;
+    font-size: 25px;
+    margin-left: 15px;  
+}
+
+h2
+{
+    font-style: normal;
+    color: #3b45b5;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3
+{
+    font-style: oblique;
+    color: #10750f;
+    text-align: center;
+    font-size: 25px;
+}
+
+a:link{
+    color: blue;
+    font-size: 20px;
+}
+
+a:visited{
+    font-weight: bolder;
+}
+
+a:hover{
+    color: red;
+    font-style: normal;  
+}
+
+a:active{
+    font-weight: bold;
+}
+
+#header
+{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    background-color: lightgray;
+    border-width: 2px;
+    height: 10%;
+    margin-bottom: -2px;
+}
+
+nav
+{
+    margin-top: 20px;
+    
+}
+
+nav a:link
+{
+    font-size: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-width: 2px;
+}
+
+nav a:hover
+{
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.divsx
+{
+    visibility: hidden;
+    margin-left: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    float: left;
+    border-width: 2px;
+    width: 20%;
+    background-color: lightgray;
+    height: 80%;
+}
+
+.divcenter
+{
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 120%;
+    background-color: #e2f2ec;
+    margin-right: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    margin-left: 5%;
+    border-width: 2px;
+    height: 80%;
+}
+
+.login_form
+{
+    text-align: center;
+    display: block; 
+    font-size: 18px;
+}
+
+.campoform
+{
+    display: block;
+    width: 70%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+.campoform:focus
+{
+    background-color: #eaeaea;
+}
+
+#page
+{
+    height: 100%;
+}
+
+table a:link
+{
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.intestazione
+{
+    background-color: white;
+    font-style: italic;
+    font-size: 21px;
+    
+}
+
+.pari
+{
+    background-color: rosybrown;
+}
+
+.dispari
+{
+    background-color: aliceblue;
+}
+
+.elenco
+{
+    position: fixed;
+}
+
+.pulsanti
+{
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pulsanti:hover
+{
+    border-color: orange;
+}
+
+.pulsanti:active
+{
+    background-color: orange;
+    color: white;
+}
+
+#footer
+{
+    visibility: hidden;
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightgray;
+    width: 88.16%;
+    height: 5%;
+    margin-top: -2px;
+    margin-left: 5%;
+    padding-left: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.rtesto
+{
+    border-style: dashed;
+    border-color:orange;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 9%;
+}
+
+.icona
+{
+     width: 200px;
+     height: 40px;
+     margin-top: 10%;
+     margin-left: 20%;
+}
+
+.scorre
+{
+    visibility: hidden;
+}
+.nofoto
+{
+    margin-top: -650px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.nofoto a:link
+{
+    font-size: 10px;
+}
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pagina Riservata - Venditore</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Mauro P">
+            <meta name="keywords" content="scanner, lettura ottica, scansione, acquisizione">            
+            <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </head>
+    
+    <body>
+        <div id="page">
+            <!-- Predispongo la nav per il collegamento con la pagina Login e Descrizione -->
+            <div id="header">
+                <nav>
+                    <a href="descrizione.html">HomePage</a>
+                    <a href="login.html">Login</a>                
+                </nav>
+                
+                <h1>EasyBuy, il tuo e-commerce di fiducia. </h1>
+            </div>
+            
+            <div class="divsx"></div>
+            
+            <div class="divcenter">
+                <h2>Inserisci un Nuovo Oggetto</h2>
+
+                <form class="login_form" method="get">
+                    <!-- Campo per inserire Nome Oggetto -->
+                    <label for="nome">Nome</label>
+                    <input class="campoform" type="text" name="nome" id="nome" value="Nome Oggetto" />
+
+                    <!-- Campo per inserire Url immagine -->
+                    <label for="url">Url Immagine</label>
+                    <input class="campoform" type="url" name="url" id="url"  value="Url Oggetto" />
+
+                    <!-- Campo per inserire Descrizione Oggetto -->
+                    <label for="descrizione">Descrizione</label>
+                    <textarea class="campoform" rows="4" cols="20" name="descrizione" id="descrizione">Descrizione dell’oggetto</textarea>
+
+                    <!-- Campo per inserire Prezzo Oggetto -->
+                    <label for="prezzo">Prezzo dell'oggetto</label>
+                    <input class="campoform" type="number" name="prezzo" id="prezzo"/>
+
+                    <!-- Campo per inserire Numero degli oggetti -->
+                    <label for="numero">Numero oggetti</label>
+                    <input class="campoform" type="number" name="numero" id="numero"/>
+
+                    <!-- Pulsanti per inviare o cancellare i dati -->
+                    <input class="pulsanti" type="submit" value="Invia">
+                    <input class="pulsanti" type="reset" value="Cancella">
+                </form> 
+            </div>
+            
+            <div id="footer">
+                <p>
+                    EasyBuy S.p.a. con Socio Unico - Capitale sociale €2.000.000 i.v. Sede legale in via Ospedale 10, 09123 Cagliari (CA) - P.I. 0123456789, C.C.I.A.A. Cagliari,
+                    R.E.A. 123456, Reg. Imp. 0123456789 <br> Vendite soggette agli artt. 45/67 "Dei diritti dei consumatori" del Codice del Consumo (D.lgs. 206/05)
+                </p>
+            </div>
+        </div> 
+    </body>
+</html>
