@@ -30,7 +30,7 @@ public class ItemFactory {
     
         ArrayList<Item> itemList = new ArrayList<Item>();
         
-        Item item_1 = new Item( 0, 0, "CANON P-215II - Scanner Portatile", 239.99, 12, "Scanner ad alta definizione", "img/canonp215.jpg");
+        Item item_1 = new Item( 0, 0, "CANON P-215I - Scanner Portatile", 239.99, 12, "Scanner ad alta definizione", "img/canonp215.jpg");
         itemList.add(item_1);
         Item item_2 = new Item( 1, 0, "ION Scanner Pics 2SD", 140.09, 5, "Scanner ad alta definizione", "img/ionscanner.jpg");
         itemList.add(item_2);
