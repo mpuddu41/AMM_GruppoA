@@ -1,0 +1,28 @@
+--------------------------------
+Tabella per "Users" 
+Sono tutti "not null"
+
+int id Primary Key
+String username
+String password
+String nome
+String cognome
+
+--------------------------------
+Tabella per "Accounts"
+Sono tutti "not null"
+
+int userId FK Users(id)
+double balance
+--------------------------------
+
+Tabella per "Items"
+
+int id Primary Key
+String nome
+String descrizione
+int quantità
+double prezzo
+String immagine
+int vendId PK refers id(Users)
+--------------------------------

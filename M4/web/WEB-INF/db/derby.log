@@ -1,0 +1,31 @@
+Tue May 24 21:30:21 CEST 2016 : Server di rete Apache Derby: 10.11.1.2 - (1629631) avviato e pronto ad accettare connessioni sulla porta 1527
+----------------------------------------------------------------
+Tue May 24 21:30:21 CEST 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a816c00e-0154-e43f-194d-ffff8ae21231
+sulla directory di database /home/mauro/Scaricati/AMM_GruppoA-master/M3/web/WEB-INF/db/ammdb con caricatore classi sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Caricato da file:/home/mauro/jdk1.8.0_91/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_91-b14
+user.dir=/home/mauro/jdk1.8.0_91/db
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-21-generic
+derby.system.home=/home/mauro/Scaricati/AMM_GruppoA-master/M3/web/WEB-INF/db
+Programma di caricamento classe database avviato - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 24 21:30:22 CEST 2016:
+Arresto dell'istanza a816c00e-0154-e43f-194d-ffff8ae21231 nella directory del database /home/mauro/Scaricati/AMM_GruppoA-master/M3/web/WEB-INF/db/ammdb con il caricatore di classi sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Tue May 24 21:30:22 CEST 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = ammdb), (DRDAID = {2}), Chiusura del database 'ammdb'.
+----------------------------------------------------------------
+Tue May 24 21:30:47 CEST 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a65c80ac-0154-e43f-194d-ffff8ae21231
+sulla directory di database /home/mauro/Scaricati/AMM_GruppoA-master/M3/web/WEB-INF/db/ammdb con caricatore classi sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Caricato da file:/home/mauro/jdk1.8.0_91/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_91-b14
+user.dir=/home/mauro/jdk1.8.0_91/db
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-21-generic
+derby.system.home=/home/mauro/Scaricati/AMM_GruppoA-master/M3/web/WEB-INF/db
+Programma di caricamento classe database avviato - derby.database.classpath=''

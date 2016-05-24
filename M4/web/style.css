@@ -1,0 +1,413 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-mar-2016, 18.47.57
+    Author     : studente
+*/
+
+
+
+/********** proprietà comuni a tutti i formati *************/
+body
+{
+    background-image: url("img/sfondo.jpg");
+    opacity: 0.96;
+    font-family: Times, Arial, sans-serif;
+    color: black;
+}
+
+h1
+{
+    font-weight: bold;
+    color: #bd0010;
+    margin-left: 45%;
+    margin-top: 20px;  
+}
+
+h2
+{
+    font-style: normal;
+    color: #3b45b5;
+    text-align: center;
+}
+
+h3
+{
+    font-style: oblique;
+    color: #10750f;
+    text-align: center;
+}
+
+a:link
+{
+    color: blue;
+    font-size: 20px;
+}
+
+a:visited
+{
+    font-weight: bolder;
+}
+
+a:hover
+{
+    color: red;
+    font-style: normal;  
+}
+
+a:active
+{
+    font-weight: bold;
+}
+
+#header
+{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    background-color: lightgray;
+    border-width: 2px;
+    height: 10%;
+    margin-bottom: -2px;
+}
+
+nav
+{
+    margin-top: 20px;
+}
+
+nav a:link
+{
+    font-size: 23px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-width: 2px;
+}
+
+nav a:hover
+{
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.divsx
+{
+    margin-left: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    float: left;
+    border-width: 2px;
+    width: 20%;
+    background-color: lightgray;
+    height: 80%;
+}
+
+.divcenter
+{
+    padding-left: 5%;
+    padding-right: 4%;
+    font-size: 120%;
+    background-color: #e2f2ec;
+    margin-right: 5%;
+    padding-top: 3%;
+    border-style: solid; 
+    margin-left: 25%;
+    border-width: 2px;
+    height: 80%;
+}
+
+.login_form
+{
+    text-align: center;
+    display: block; 
+    font-size: 18px;
+}
+
+.campoform
+{
+    display: block;
+    width: 35%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 32%;
+}
+
+.campoform:focus
+{
+    background-color: #eaeaea;
+}
+
+#page
+{
+    height: 1200px;
+}
+
+#homepage
+{
+    height: 1800px;
+}
+
+table a:link
+{
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #e2f2ec;
+    font-color: red;
+}
+
+.intestazione
+{
+    background-color: white;
+    font-style: italic;
+    font-size: 21px;  
+}
+
+.sfondotab
+{
+    background-color: aliceblue;
+}
+
+.pulsanti
+{
+    border-style: solid;
+    border-color: lightgrey;
+    width: 90px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.pulsanti:hover
+{
+    border-color: orange;
+}
+
+.pulsanti:active
+{
+    background-color: orange;
+    color: white;
+}
+
+#footer
+{
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightgray;
+    width: 88.16%;
+    height: 5%;
+    margin-top: -2px;
+    margin-left: 5%;
+    padding-left: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.icona
+{
+     width: 200px;
+     height: 40px;
+     margin-left: 40%;
+     margin-top: 10%;
+}
+
+.prodotti
+{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.errore
+{
+    color: red;
+    text-align: center;
+}
+
+.completo
+{
+    color: green;
+    text-align: center;
+}
+
+#acquisto
+{
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px)
+{
+
+.prodotti
+{
+    position: fixed;
+    width: 50%;
+    margin-left: 110px;
+}
+
+.divsx
+{
+    min-width: 330px;
+}
+
+tr img:hover
+{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+}
+
+.elenco
+{
+    position: fixed;
+}
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px)
+{ 
+h1
+{
+    margin-left: 10%;
+    font-size: 28px;
+}
+
+.prodotti
+{
+    min-width: 600px;
+}
+
+nav a:link
+{
+    font-size: 16px;
+}
+
+.divsx
+{
+    display: none;          /* nascondo la sidebar di sinistra per questa versione più piccola*/
+}
+
+#header
+{
+    min-width: 665px;
+}
+
+.divcenter
+{
+    margin-left: 5%;
+    min-width: 600px;
+}
+
+.campoform
+{
+    width: 60%;
+    margin-left: 15%;
+}
+
+#page
+{
+    height: 100%;
+}
+
+.pulsanti
+{
+    margin-bottom: 30px;
+}
+
+#footer
+{
+    visibility: hidden;     /* nascondo il footer quando la pagina rimpiciolisce*/
+}
+
+.icona
+{
+     margin-left: 35%;
+}
+}
+
+@media only screen and (max-width: 480px)
+{
+h1
+{
+    font-size: 25px;
+    margin-left: 3%;  
+}
+
+h2
+{
+    font-size: 25px;
+}
+
+h3
+{
+    font-size: 23px;
+}
+
+nav a:link
+{
+    font-size: 15px;
+}
+
+#header
+{
+    min-width: 665px;
+}
+
+.divsx
+{
+    display: none;
+}
+
+.divcenter
+{
+    margin-left: 5%;
+    min-width: 600px;
+}
+
+.campoform
+{
+    width: 70%;
+    margin-left: 10%;
+}
+
+#page
+{
+    height: 100%;
+}
+
+.pulsanti
+{
+    margin-bottom: 30px;
+}
+
+.pulsanti:hover
+{
+    border-color: orange;
+}
+
+#footer
+{
+    visibility: hidden;
+}
+
+.icona
+{
+     margin-left: 15%;
+}
+
+.prodotti
+{
+    min-width: 600px;
+}
+}
